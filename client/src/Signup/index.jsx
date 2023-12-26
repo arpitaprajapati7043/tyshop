@@ -53,7 +53,7 @@ function Signup() {
                 <h1>Two Factor Authentication setup</h1>
                 <h2>Please scan the QRcode with Google Authenticator</h2>
                 <div className='d-flex justify-content-center'>
-                  <img src={data} />
+                  <img src={data} alt=""/>
                 </div>
               </> :
                 <Form>
